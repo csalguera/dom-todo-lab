@@ -2,6 +2,8 @@
 const input = document.getElementById('input-item')
 const submit = document.getElementById('submit-button')
 const list = document.getElementById('todo-list')
+const reset = document.getElementById('reset-button')
+const listItems = document.querySelectorAll('li')
 
 // // button event listener -> click
 // // create li element -> createElement('li')
@@ -15,4 +17,12 @@ submit.addEventListener('click', () => {
   listItem.textContent = input.value
   input.value = ('')
   list.appendChild(listItem)
+})
+
+// clear all li Els on click of reset
+// clear input value as well
+
+reset.addEventListener('click', () => {
+  list.textContent = ''
+  input.value = ''
 })
