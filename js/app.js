@@ -10,6 +10,7 @@ const list = document.getElementById('todo-list')
 // // add li element to page inside ul element -> ul appendChild li
 
 submit.addEventListener('click', () => {
+  if (input.value === '') return
   const listItem = document.createElement('li')
   listItem.textContent = input.value
   input.value = ('')
