@@ -19,10 +19,11 @@ submit.addEventListener('click', () => {
   list.appendChild(listItem)
 })
 
-// clear all li Els on click of reset
-// clear input value as well
+// // clear all li Els on click of reset
+// // clear input value as well
 
 reset.addEventListener('click', () => {
   list.textContent = ''
   input.value = ''
 })
+
