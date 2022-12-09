@@ -3,7 +3,7 @@ const input = document.getElementById('input-item')
 const submit = document.getElementById('submit-button')
 const list = document.getElementById('todo-list')
 const reset = document.getElementById('reset-button')
-const listItems = document.querySelectorAll('li')
+// // const listItems = document.querySelectorAll('li')
 
 // // button event listener -> click
 // // create li element -> createElement('li')
