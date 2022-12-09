@@ -27,3 +27,6 @@ reset.addEventListener('click', () => {
   input.value = ''
 })
 
+list.addEventListener('click', (evt) => {
+  evt.target.remove()
+})
